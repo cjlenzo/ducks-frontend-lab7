@@ -51,7 +51,7 @@
       let ducks = [];
 
       async function getAll() {
-        let host = "http://localhost:8080";
+        let host = "http://localhost:8081";
         return fetch(host + "/ducks")
           .then((response) => response.json())
           .catch((error) => {
